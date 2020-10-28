@@ -5,6 +5,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet">
+	<link rel="icon" type="image/ico" href="./assets/favicon.ico">
 	<title>Jolby</title>
 </head>
 
@@ -17,35 +20,35 @@
 			<span></span>
 			<span></span>
 			<ul id="menu">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Features</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Team</a></li>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#features">Features</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#team">Team</a></li>
 			</ul>
 		</div>
 	</nav>
 	<!-- Main Section -->
-	<main>
+	<main id="home">
 		<div class="overlay"></div>
 		<div class="main-content">
 			<h1>Welcome to Jolby!</h1>
 			<p>Find remote jobs that match perfectly<br />with your profile.</p><br />
-			<a href="https://jolby-front.herokuapp.com/" class="btn" target="_blank">More Details</a>
+			<a href="http://www.jolby.rocks/" class="btn" target="_blank">Try it by yourself!</a>
 		</div>
 	</main>
 	<!-- Feactures Section -->
-	<section class="features">
+	<section class="features" id="features">
 		<h2 class="title-feature">Features</h2>
 		<div class="container grid-3 center">
 			<div>
 				<img src="./assets/icon-data.png" alt="icon-data" />
 				<h3 class="features-subtitle">Find</h3><br />
-				<p>Find in one place a large selection of remote job openings that perfectly match your profile.</p>
+				<p>Find in just one place a large selection of remote job openings that perfectly match your profile.</p>
 			</div>
 			<div>
 				<img src="./assets/icon-search.png" alt="icon-search" />
 				<h3 class="features-subtitle">Search</h3><br />
-				<p>Search by role or by the technology that interests you the most.</p>
+				<p>Search by role or the technology that interests you the most.</p>
 			</div>
 			<div>
 				<img src="./assets/icon-csv.png" alt="icon-csv" />
@@ -56,11 +59,12 @@
 	</section>
 
 	<!-- About Section -->
-	<section class="about bg-light">
+	<section class="about bg-light" id="about">
 		<div class="container">
 			<div class="container grid-2 center">
 				<div class="center">
 					<video src="./assets/video-jolby.mp4" width="550" height="320" controls autoplay loop></video>
+					<a class="code" href="https://github.com/CrisRuedaP/Jolby" target="_blank">Here you can see the project repository.</a></p>
 				</div>
 				<div>
 					<h2 class="title-about">About Us</h2><br>
@@ -79,7 +83,7 @@
 	</section>
 
 	<!-- Team Section -->
-	<section class="team-section">
+	<section class="team-section" id="team">
 		<h2 class="team-title">Our Team</h2>
 		<ul class="team">
 			<li class="transition">
@@ -93,10 +97,10 @@
 									src="./assets/twitter.png"></a></li>
 					</ul>
 					<img class="pic-profile" src="./assets/cris-pic.png">
-					<h3 class="transition">Cristina Rueda <em>Front-End Developer</em></h3>
+					<h3 class="transition">Cristina Rueda <em>Full Stack Developer</em></h3>
 					<span class="transition">
 						<div class="text-wrapper transition">
-							<p class="bio-member">I am a junior developer who focuses on the front-end. I am passionate about
+							<p>I am a junior developer who focuses on the front-end. I am passionate about
 								technology also very enthusiastic about user interface design.<br />
 								I develop client site applications using HTML, CSS JavaScript and React. I am self-taught and I enjoy
 								learning new things! Creativity, communication, and teamwork are my specialties.</p>
@@ -115,14 +119,11 @@
 									src="./assets/twitter.png"></a></li>
 					</ul>
 					<img class="pic-profile" src="./assets/sol-pic.png">
-					<h3 class="transition">Marisol Ramírez<em>FullStack Developer</em></h3>
+					<h3 class="transition">Marisol Ramírez<em>Full Stack Developer</em></h3>
 					<span class="transition">
 						<div class="text-wrapper transition">
-							<p>I am a Software Developer from Holberton School and I am an Agronomist Engineer from the University of
-								Caldas. I believe in collaborative work, in expressing my ideas with enthusiasm and appreciating those
-								of other people with respect. I love everything that requires ingenuity and innovation; solving problems
-								with speed, punctuality and precision is my daily challenge and focus. I love: listening to music,
-								drawing, painting, cinema, dancing, nature, laughing.</p>
+							<p>I am a Software Developer and Agronomist Engineer. 
+								<br/>I believe in collaborative work, in expressing my ideas with enthusiasm and appreciating those of other people with respect. Solving problems with speed, punctuality and precision is my daily challenge and focus. I love: listening to music, drawing, painting, cinema, dancing, nature, laughing.</p>
 						</div>
 					</span>
 				</div>
@@ -138,14 +139,10 @@
 									src="./assets/twitter.png"></a></li>
 					</ul>
 					<img class="pic-profile" src="./assets/dave-pic.png">
-					<h3 class="transition">David Hincapié<em>FullStack Developer</em></h3>
+					<h3 class="transition">David Hincapié<em>Full Stack Developer</em></h3>
 					<span class="transition">
 						<div class="text-wrapper transition">
-							<p> I'm a passionate Full Stack software engineer from Colombia with knowledge in diverse programming
-								languages and frameworks. One of my main goals is to be a master in coding and contribute to developing
-								tools that somehow make a positive impact on society, the reason why I have developed Jolby with this
-								amazing team, all of us convinced that this project will help a lot of peers globally to find the best
-								job opportunities for their profile, and grow their possibilities.</p>
+							<p class="bio-member">Passionate Full Stack Software Engineer with knowledge in diverse programming languages. My main goal is to be a master in coding and contribute to developing tools that make a positive impact on society, the reason why I have developed Jolby with this amazing team, convinced that this will help a lot of peers and grow their possibilities.</p>
 						</div>
 					</span>
 				</div>
@@ -154,7 +151,7 @@
 	</section>
 
 	<footer>
-		<p>Holby by Coderise</p>
+		<p>Jolby by Coderise</p>
 	</footer>
 
 </body>
