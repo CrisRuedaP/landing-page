@@ -32,7 +32,13 @@ a:hover {
 	z-index: 999;
 	-webkit-user-select: none;
 	user-select: none;
+	width: 0;
 }
+
+.on {
+	width: auto;
+}
+
 #menuToggle input {
 	display: block;
 	width: 40px;
@@ -107,16 +113,23 @@ a:hover {
 
 /*--------Main---------*/
 main {
-	background-image: url("./assets/bg-img.png");
+	background-image: url("./assets/backg.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 	align-items: center;
+	align-content: center;
 	font-family: "Roboto", sans-serif;
 	font-size: 1em;
 	z-index: -2;
+}
+
+.logo {
+	position: absolute;
+	right: 7%;
+	top: 5%;
 }
 
 .overlay {
@@ -141,6 +154,7 @@ main {
 	font-weight: 500;
 	margin-bottom: 1rem;
 	margin-right: 4rem;
+	text-align: center;
 }
 
 h1 {
@@ -161,6 +175,13 @@ h1 {
 	border-style: solid;
 	border-radius: 35px;
 	cursor: pointer;
+}
+
+.btn-container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
 }
 
 .btn:hover {
@@ -201,7 +222,7 @@ h1 {
 	max-width: 960px;
 	margin: auto;
 	overflow: hidden;
-	padding: 3rem 0 5.5rem 0;
+	padding: 3rem 3rem 5.5rem 0;
 }
 
 .about-img {
@@ -258,7 +279,7 @@ h1 {
 	font-size: 1.1rem;
 	font-weight: 600;
 	margin-top: 1.5rem;
-	font-family: 'Roboto' sans-serif;
+	font-family: "Roboto" sans-serif;
 	color: #fa8669;
 }
 
@@ -395,7 +416,7 @@ h1 {
 	margin-top: 5px;
 	color: #fa8669;
 }
-.bio-member{
+.bio-member {
 	padding-top: 1rem;
 	font-size: 12.5px;
 }
@@ -479,7 +500,7 @@ footer {
 footer p {
 	font-family: "Monserrat", sans-serif;
 	font-weight: 900;
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	display: flex;
 	justify-content: center;
 	margin: 0;
