@@ -1,0 +1,41 @@
+@media (max-width: 600px) {
+	video {
+		width: 91%;
+		margin: 0 auto;
+	}
+	.text-about {
+		padding-left: 0;
+	}
+	.video-text {
+		padding: 0 2rem;
+	}
+
+	.container {
+		padding: 2.5rem 0;
+	}
+
+	ul.team li {
+		margin: 0 0 1rem;
+	}
+
+	.features {
+		padding: 0 1rem;
+	}
+
+	.main-content {
+		text-align: center;
+	}
+	.main-content p {
+		margin: 0;
+		padding-bottom: 2rem;
+	}
+
+	.btn-container a {
+		margin: 0 0;
+	}
+
+	.grid-3,
+	.grid-2 {
+		grid-template-columns: 1fr;
+	}
+}
