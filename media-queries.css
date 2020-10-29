@@ -3,6 +3,11 @@
 		width: 91%;
 		margin: 0 auto;
 	}
+
+	#menu {
+		width: 100vw;
+	}
+
 	.text-about {
 		padding-left: 0;
 	}
